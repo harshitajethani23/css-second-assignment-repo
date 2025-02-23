@@ -2,8 +2,55 @@
 <html>
 <head>
     <title>cards</title>
+    <style>
+        .card {
+            width :250px;
+            height :420px;
+            padding :5px;
+            background-color :#F8E7F6;
+            border :2px solid #4B164C;
+            border-radius :5px;
+        }
+        .cardimg {
+            width:100%;
+            height:50%;
+        
+        }
+        .cardhead {
+            font-size:15px;
+            color:#4B164C;
+        }
+        .current-price {
+            font-weight:bold;
+            font-size:22px;
+        }
+        .btn {
+        background-color:#4B164C;
+        color:white;
+        padding:2px 5px;
+        cursor:pointer;
+        border:none;
+        font-size:16px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        border:none;
+        border-radius:5px;
+        
+    }
+         
+    </style>
 </head>
 <body>
-    
+    <div class="card">
+        <img src="./icons/heeels.jpg" alt="heelsimg" class="cardimg" />
+        <h1 class="cardhead">Klaur Melbourne 
+            Women Heels </h1>
+        <p class="description">
+            a solid, raised base or support of leather, wood, rubber, etc., attached to the sole of a shoe or boot under the back part of the foot
+        </p>
+        <p>₹<del>1200/-</del><span class="current-price">900/-</span>only</p>
+        <button class="btn">buy now</button>
+    </div>
 </body>
 </html>
